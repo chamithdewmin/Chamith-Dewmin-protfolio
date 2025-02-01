@@ -1196,7 +1196,7 @@ footer {
 }
 
 .faviconforProject {
-    width: 30px;
+    width: 50px;
     border-radius: 50%
 }
 
@@ -2016,4 +2016,10 @@ footer {
         height: fit-content;
         margin-top: 100px;  
     }
+}
+
+@media screen and (max-width: 768px) {
+  .logo-top img {
+    width: 50px; /* Keep the same width on mobile */
+  }
 }
